@@ -2,7 +2,8 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Arial";
+    
 }
 body
 {
@@ -33,7 +34,7 @@ body
     display: grid;
     width: 60px;
     height: 60px;
-    color: #111;
+    color: white;
     background: #0c2835;
     place-items: center;
     border: 1px solid rgba(0, 0, 0, -1);
@@ -47,6 +48,7 @@ body
 {
     grid-column: span 2;
     width: auto;
+    color: rgb(232, 243, 232);
     background: #ff3077;
 }
 .calculator span.plus
